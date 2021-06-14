@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Poppins !important;
+  background-color: #050418 !important;
+  color: ;
+}
+
+/* Navbar Start */
+nav.navbar {
+  background-color: transparent !important;
+  padding: 30px;
+}
+
+.navbar ul {
+  margin-left: 20rem;
+}
+
+.navbar ul li {
+  padding: 0 10px;
+}
+
+.navbar ul li a {
+  color: #808080 !important;
+  transition: 0.8s;
+}
+
+.navbar ul li a:hover {
+  color: white !important;
+}
+
+.navbar-brand .navbar-toggler-icon {
+  color: #808080 !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.navbar .btn {
+  color: white;
+  border: none;
+  background-color: #5123d6;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+/* Responsive Mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  .navbar-brand {
+    font-size: 12px !important;
+  }
+
+  .navbar ul {
+    margin-left: 0;
+  }
+}
+
+/* Navbar End */
+
+/* Jumbotron Start */
+#header-section {
+  margin-bottom: 200px;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  color: #e5e5e5;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+}
+
+.jumbotron h1 span {
+  color: #5123d6;
+}
+
+.jumbotron .btn {
+  color: white;
+  border: none;
+  background-color: #5123d6;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+/* Responsive Mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  /* .jumbotron h1 {
+    font-size: 40px;
+  }
+
+  .jumbotron .lead {
+    font-size: 15px;
+  } */
+
+  .jumbotron img {
+    display: none;
+  }
+}
+
+/* Responsive Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .jumbotron img {
+    display: none;
+  }
+}
+/* Jumbotron End */
+
+/* About Me Start */
+#about-me {
+  margin-bottom: 300px;
+}
+
+.about-me h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #e5e5e5;
+}
+
+.about-me h2 span {
+  color: #5123d6;
+}
+
+.about-me p {
+  color: #e5e5e5;
+}
+
+/* Responsive Mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  .about-me {
+    padding: 0 30px;
+  }
+}
+/* About Me End */
+
+/* What I Do Start */
+.what-i-do {
+  margin-bottom: 300px;
+  color: #e5e5e5;
+}
+
+.what-i-do h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #e5e5e5;
+  margin-bottom: 100px !important;
+}
+
+.what-i-do h2 span {
+  color: #5123d6;
+}
+
+.what-i-do h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.what-i-do p {
+  font-size: 15px;
+}
+
+.wid-card {
+  max-width: 274px;
+  background-color: #5123d6;
+  padding: 50px 20px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+.wid-card img {
+  transform: translateX(35%);
+}
+
+/* Responsive Mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  .what-i-do {
+    padding: 0 30px;
+  }
+
+  .what-i-do h2 {
+    margin-bottom: 30px !important;
+  }
+
+  .wid-card {
+    margin: 50px auto;
+  }
+}
+/* What I Do End */
+
+/* CTA Start */
+.cta {
+  margin-bottom: 200px;
+}
+
+.cta p {
+  color: #e5e5e5;
+}
+
+.cta .btn {
+  color: white;
+  border: none;
+  background-color: #5123d6;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+/* Responsive Mobile */
+/* Responsive Mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  .cta {
+    padding: 0 30px;
+  }
+}
+
+/* CTA End */
+
+/* Footer Start */
+footer p {
+  color: #808080;
+}
+/* Footer End */
